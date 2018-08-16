@@ -1,26 +1,101 @@
-
+/*Comment*/
 body {
     background-image: url("../images/background.png");
-}
+    padding: 0;
+    margin: 0;
+    }
 
-#myname {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #4aaaa5;
+.nav {
+    background: white;
+    border-top: 2px solid #cccccc;
+    height: 60px;
+    }
 
-}
-
-nav {
-    background-color: #ffffff;
-    border-color: #cccccc;
-    font-family: Arial, Helvetica, sans-serif;
+ul {
+    background: white;
     list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    margin:0;
+    line-height: 350%;
+    font-size: 14px;
+    }
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    display: inline;
+    text-align: left;
+    padding: 5px;
+    color: black;
+    }
+
+a {
+    text-decoration: none;
+    display: inline-block;
 }
+
+#me {
+    float: left;
+    background: teal;
+    color: white;
+    font-size: 22px;
+    margin-left: 130px;
+    height: 60px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    }
+
+.main {
+    width: 960px;
+    background: white;
+    margin-right: 10%;    
+    margin-left: 10%;
+    margin-top:3%;
+    }
 
 #topic {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
+    font-size: 24px;
+    padding: 20px 30px 0 30px;
+    }
+
+hr { 
+    display: block;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    margin: 0 30px 0 30px;
 }
+
+img {
+    display: block;
+    float: left;
+    margin-right: 20px;
+    padding: 10px 30px 10px 30px;
+    margin: 20px 0 0 10px;
+    }  
+
+.mainpara {
+    align-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 10px 40px 0 40px;
+    line-height: 1.8; 
+    }
 
 footer {
     font-family: Arial, Helvetica, sans-serif;
+    background: #666666;
+    font-size: 8px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    border-top: 5px solid teal;
+    margin-top: 50px;
+    line-height: 50px; 
     }
