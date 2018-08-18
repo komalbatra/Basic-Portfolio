@@ -38,7 +38,7 @@ a {
     display: block;
     float:left;
     align-content: center;
-}
+   }
 
 #me {
     float: left;
@@ -60,6 +60,7 @@ a {
     margin-left: 10%;
     margin-top:3%;
     height: auto;
+    border: 2px solid #dddddd;
     }
 
 #topic {
@@ -75,7 +76,7 @@ hr {
     border-style: inset;
     border-width: 2px;
     margin: 0 30px 0 30px;
-}
+    }
 
 /* Index Page Elements*/
 img {
@@ -92,22 +93,23 @@ img {
     font-size: 14px;
     padding: 10px 40px 35px 40px;
     line-height: 1.8; 
+    color: #777777;
     }
 
 /*Portfolio Page Elements*/
 .grid-container {
-        display: grid;
-        grid-gap: 0px 0px;
-        grid-template-columns: auto auto;
-        padding: 0px;
-        width: 200px
-}
+    display: grid;
+    grid-gap: 0px 0px;
+    grid-template-columns: auto auto;
+    padding: 0px;
+    width: 200px
+    }
 
 .grid-item {
     padding: 5px;
     font-size: 30px;
     text-align: center;
-}
+    }
 
 .gallery {
     margin-bottom: 0px;
@@ -116,13 +118,13 @@ img {
     height: 135px;
     margin-top: 20px;
     margin-left: 10px;
-}
+    }
 
 .gallery img {
     width: 180px;
     height: 135px;
     padding: 0;
-}
+    }
 
 .desc {
     text-align: center;
@@ -138,7 +140,8 @@ img {
     font-size: bolder;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-}
+    }
+
 /*Contact Page Elements*/
 input[type=text], select {
     width: 100%;
@@ -148,7 +151,7 @@ input[type=text], select {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-}
+    }
 
 input[type=submit] {
     width: auto;
@@ -160,7 +163,7 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-}
+    }
 
 textarea {
     width: 100%;
@@ -170,7 +173,7 @@ textarea {
     border: 2px solid #ccc;
     border-radius: 4px;
     resize: auto;
-}
+    }
 
 /*Footer ofcourse*/
 footer {
@@ -184,4 +187,4 @@ footer {
     border-top: 5px solid teal;
     margin-top: 50px;
     line-height: 50px; 
-}
+    }
