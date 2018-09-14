@@ -8,5 +8,6 @@ The form was the easiest to do and then the Portfolio Page.
 
 ##UPDATES
 
-Aug-29-2018: Added link to Hangman Game in portfolio section
+Sep-14-2018: Added link to Trivia Game.
 Sep-08-2018: Added link to Crystals Collector Game.
+Aug-29-2018: Added link to Hangman Game in portfolio section
